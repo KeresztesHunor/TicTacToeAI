@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+    max-width: 360px;
+    margin: auto;
+}
+
+#jatek-ter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid black;
+}
+
+#jatek-ter > div {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: 1px solid black;
+}
